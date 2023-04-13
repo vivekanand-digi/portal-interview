@@ -1,6 +1,5 @@
 import axios from 'axios'
 import { removeFromLocal, getCookie, setCookie } from '../utils/storage/index'
-const REACT_APP_BASE_URL = 'https://34.171.58.92:8080'
 
 const getHeaders = () => {
   return {
@@ -68,37 +67,6 @@ export const requestPost = async (url, formData = {}, method = 'post', reqHeader
      token: getCookie('token')
      }
     
-    })
-      .then((response) => {
-        return response
-      })
-      .catch((err) => {
-        return err.response
-      })
-    if (data && data['data'] && data['data']['error'] == 'Unauthorized' || data && data["statusText"] == 'Unauthorized') {
-      logoutFromMicrosoft()
-    } else {
-      let value = getCookie('token') || ''
-      setCookie('token', value, 360)
-    }
-    return data
-  } catch (error) {
-    return error
-  }
-}
-
-export const loginRequest = async (data) => {
-  try {
-    return await axios.post(`${REACT_APP_BASE_URL}/global-config/config-ui-login`, data)
-  } catch (error) {
-    return error
-  }
-}
-
-export const configRequest = async (url, action, formData) => {
-  try {
-    const data = await axios[action](`${REACT_APP_BASE_URL}/${url} `, formData, {
-      headers: getHeaders()
     })
       .then((response) => {
         return response
