@@ -1,0 +1,35 @@
+.header_wrapper {
+  color: white;
+  align-items: baseline;
+}
+
+.header_wrapper h5 a {
+  margin-left: 10px;
+}
+.header_wrapper h2,
+.header_wrapper h4,
+.header_wrapper h5 a {
+  color: #24BDB8 !important;
+  margin: 10px ;
+}
+.header_btn_logout{
+  background: #2C61AD !important;
+  border: 1px solid #2C61AD !important;
+  font-weight: bold !important;
+  color: #ffffff !important;
+}
+
+.header_wrapper h5:hover {
+  cursor: pointer;
+}
+
+.header_btn_wrapper {
+  display: flex !important;
+  align-items: baseline;
+}
+
+.text_overflow_ellipsis{
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

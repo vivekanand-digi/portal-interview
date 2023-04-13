@@ -1,0 +1,42 @@
+.login_wrapper {
+  width: 30%;
+  margin: 10% auto;
+  border: 10px solid transparent;
+  margin-top: 100px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px #80808038;
+}
+.login_button {
+  margin-left: 50%;
+}
+
+.microsoft_login {
+  background: transparent;
+  padding: 8px;
+  color: black;
+  margin-left: 17px;
+  border: none;
+  cursor: pointer;
+  background-color: #eee;
+}
+.microsoft_logout {
+  padding: 5px;
+  color: black;
+  margin-left: 17px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.microsoft_logo{
+  height: 20px;
+  margin-top: -3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .login_wrapper {
+    width: 100%;
+  }
+}

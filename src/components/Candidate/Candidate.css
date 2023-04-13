@@ -1,0 +1,36 @@
+.topspacing{
+    margin: 20px ;
+}
+.horizontaSpace{
+    margin: 0 20px;
+}
+.timeline-clock-icon {
+    font-size: 16px;
+  }
+
+ .avatar-align{
+    margin: 0 2%;
+    text-align: center;
+
+ }
+ .topMargin{
+    margin-top:20%
+ }
+
+ .ViewProfileButton{
+     
+ }
+ .align-left{
+     text-align: right;
+ }
+
+
+ .ant-divider.ant-divider-horizontal{
+     margin: 10px 0;
+ }
+
+ @media only screen and (max-width: 767px) {
+    .topMargin{
+        margin-top:0%
+    }
+}

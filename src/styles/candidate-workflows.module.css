@@ -1,0 +1,15 @@
+.onhold_drop_button{
+    margin:20px 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.joined_not_joined{
+    margin:20px 0px;
+}
+
+.flex_between{
+    display: flex;
+    justify-content: space-between;
+}

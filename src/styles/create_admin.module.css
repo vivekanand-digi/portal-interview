@@ -1,0 +1,12 @@
+.create_admin_form {
+  width: 100%;
+  background: white;
+  padding: 30px 120px 30px 40px !important;
+  margin-bottom: 20px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .create_admin_form {
+    padding: 30px !important;
+  }
+}
